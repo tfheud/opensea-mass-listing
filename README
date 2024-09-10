@@ -1,0 +1,52 @@
+This software makes it possible to list up to 200 nft of one collection at the same time on opensea
+
+Instruction
+
+cp list.ekz list.js
+
+
+Go to https://docs.opensea.io/reference/list_nfts_by_account
+Enter in the field Authorization your opensea api key
+
+Choose a language nodejs
+
+Change metadata fields
+
+address:  your ethrereum address wallet
+chain:  chain nft
+
+collection:  your nft name  through -
+
+limit 1-200 nft
+
+next:  leave blank
+
+//
+click "Try it!"
+
+copy response
+
+//
+
+nano list.js
+
+paste response YOUR_RESPONSE  // change it
+
+save and exit
+//
+
+nano 0.1.js
+
+Change proxy, private key, rpc chain, your opensea api, contract address nft
+
+save and closed
+
+node pars.js
+
+copy nft in wallet: NUMBER
+
+node 0.1.js price total start finish  // change price in eth, total: NUMBER the result of the previous command, start number and finish
+
+example 
+
+node 0.1.js 0.003 200 0 200

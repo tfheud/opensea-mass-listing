@@ -1,0 +1,5 @@
+let k = PASTE_RESPONSE
+
+
+
+module.exports = { k }
