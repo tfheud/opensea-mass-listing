@@ -8,7 +8,6 @@ cd opensea-mass-listing
 
 cp list.ekz list.js
 
-
 Go to https://docs.opensea.io/reference/list_nfts_by_account
 Enter in the field Authorization your opensea api key
 
@@ -29,9 +28,7 @@ next:  leave blank
 click "Try it!"
 
 copy response
-
 //
-
 nano list.js
 
 paste response YOUR_RESPONSE  // change it
