@@ -40,6 +40,8 @@ nano 0.1.js
 
 Change proxy, private key, rpc chain, your opensea api, contract address nft
 
+change chain: Chain.CHAIN //   example   chain: Chain.Base  or  chain: Chain.Arbitrum
+
 save and closed
 
 node pars.js

@@ -24,7 +24,7 @@ const provider = new JsonRpcProvider(fetchReq);
 const walletWithProvider = new ethers.Wallet(prkey, provider);
 
 const openseaSDK = new OpenSeaSDK(walletWithProvider, {
-  chain: Chain.Base,
+  chain: Chain.CHAIN,          // change chain: Chain.CHAIN //   example   chain: Chain.Base  or  chain: Chain.Arbitrum
   apiKey: 'YOUR_OPENSEA_API',      //change your opensea api
 });
 
